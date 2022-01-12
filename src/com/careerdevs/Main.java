@@ -7,11 +7,13 @@ public class Main{
 
         Car myCar = new Car("Camarro2SS", "Chevy", 10000, 10);
 
-        System.out.println(myCar.getMake());
-        System.out.println(myCar.getModel());
-        System.out.println(myCar.getMileage());
-        System.out.println(myCar.getGas());
+        System.out.println("Make: "+ myCar.getMake());
+        System.out.println("Model: "+ myCar.getModel());
+        System.out.println("Mileage: "+ myCar.getMileage());
+        System.out.println("Gas: "+ myCar.getGas());
 
-
+//        Make: Mustang GT Model: Ford, mileage: 30000, gasTankPercent: 0.50
+//
+//        Make: Hellcat, Model: Dodge, mileage: 100, gasTankPercent: 0.90
     }
 }
