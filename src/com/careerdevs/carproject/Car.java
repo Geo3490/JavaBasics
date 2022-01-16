@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.carproject;
 
 public class Car {
 
@@ -15,6 +15,16 @@ public class Car {
         this.mileage = mileage;
         this.gas = gas;
     }
+
+//    @Override
+//    public String toString(){
+//        return "MODEL: "+ model +
+//                ","+ "MAKE: "+ make +
+//                ","+ "MILEAGE"+ mileage +
+//                ","+ "GAS"+ gas;
+////        System.out.println();
+//    }
+//}
 
     public String getMake() {
         return make;
