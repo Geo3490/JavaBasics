@@ -5,7 +5,7 @@ public class Company {
     public short yearEstablished;
     public double marketCap;
 
-    public void Company(){
+    public Company(String companyName, short yearEstablished, double marketCap){
         this.companyName = companyName;
         this.yearEstablished = yearEstablished;
         this.marketCap = marketCap;
@@ -13,8 +13,9 @@ public class Company {
 
     @Override
     public String toString() {
+
         return "Company{" +
-                "companyName='" + companyName + '\'' +
+                "companyName=" + companyName + '\'' +
                 ", yearEstablished=" + yearEstablished +
                 ", marketCap=" + marketCap +
                 '}';

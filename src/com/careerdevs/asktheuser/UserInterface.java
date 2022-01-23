@@ -36,7 +36,7 @@ public class UserInterface {
         double doubleQuestion = scanner.nextDouble();
 
         System.out.println(doubleQuestion+"!"+"\n");
-//
+
 //        System.out.println("Whats Your Name ? ");
 //        int intQuestion = scanner.nextInt();
 //
