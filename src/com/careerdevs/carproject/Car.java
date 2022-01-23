@@ -48,14 +48,15 @@ public class Car {
         }
 
         public void getMileage ( int mileage){
-            this.mileage = 1000;
+            this.mileage = mileage;
         }
 
         public float getGas () {
             return gas;
         }
     public void setGas(float gas) {
-        this.gas = 10;
+        this.gas = gas;
 
     }
+
 }
