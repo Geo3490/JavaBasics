@@ -1,9 +1,10 @@
 package com.careerdevs.companyproject;
 
-public class Company {
-    public String companyName;
-    public short yearEstablished;
-    public double marketCap;
+public class Company{
+    String companyName;
+    short yearEstablished;
+    double marketCap;
+
 
     public Company(String companyName, short yearEstablished, double marketCap){
         this.companyName = companyName;
@@ -13,9 +14,8 @@ public class Company {
 
     @Override
     public String toString() {
-
         return "Company{" +
-                "companyName=" + companyName + '\'' +
+                "companyName='" + companyName + '\'' +
                 ", yearEstablished=" + yearEstablished +
                 ", marketCap=" + marketCap +
                 '}';
