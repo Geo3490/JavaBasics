@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.Recursion;
 
 public class Recursion {
 
